@@ -21,3 +21,8 @@ Para utilizar, basta inserir o texto desejado no campo apropriado e selecionar a
 
 ## Exemplo 
 [demonstracao.webm](https://github.com/Finkeel/criptografiaAlura/assets/87964144/1b8c87b4-7346-4187-a329-924acc329251)
+
+## Mensagem secreta do desafio
+"pairaibenterns poberr enterncairair enterssenter dentersaifimesober enter tenterr fimesnailimeszaidober enterlenter coberm sufatcenterssober!"
+
+"parabens por encarar esse desafio e ter finalizado ele com sucesso!"
