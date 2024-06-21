@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="alura.png" alt="Logo" class="logo">
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="text-area">
+                <label for="texto" class="label-text">Digite seu texto</label>
+                <textarea id="texto" rows="10"></textarea>
+                <div class="options">
+                    <input type="radio" id="criptografar" name="opcao" value="criptografar" checked>
+                    <label for="criptografar">Criptografar</label>
+                    <input type="radio" id="descriptografar" name="opcao" value="descriptografar">
+                    <label for="descriptografar">Descriptografar</label>
+                </div>
+                <button class="btn-primary" onclick="executar()">Executar</button>
+                <p class="small-text">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="result-area">
+                <label for="resultado" class="label-result">Resultado:</label>
+                <div id="resultado" class="result-box">Nenhuma mensagem encontrada</div>
+                <button class="btn-secondary" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
